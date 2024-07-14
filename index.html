@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="https://pngimg.com/d/letter_s_PNG29.png">
+</head>   <!--used google fonts to get Open Sans font-->
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">L</div>
+            <div class="logo-text">Portfolio Website</div>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Skills</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onclick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+                </svg>
+                  
+            </a>
+        </nav>
+    </header>    <!--used flowbit.com to get hamberger svg-->
+
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small>
+                        Sathvik Dixit
+                    </h1>
+                    <p>
+                        A full stack web developer who works in Google as SDE-1 <span>I'm intrested in AI topics which is why I also freelance as a AI engineer. </span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="#" class="button black">View Resume</a>
+                        <a href="#" class="button white">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./imgs/github.png" alt="My GitHub" width="48"  />
+                        </a>
+                        <a href="#">
+                            <img src="./imgs/linkedin.png" alt="My LinkedIn" width="48"  />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/Me3.png" alt="Sathvik Dixit" width="100%"  />
+            </div>
+        </section>
+
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+                    <img src="./imgs/azure.png" alt="Azure" width="128" />
+                    <img src="./imgs/vscode.png" alt="VScode" width="128" />
+                    <img src="./imgs/nextjs.png" alt="NextJS" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
+
+                    <img src="./imgs/html.png" alt="HTML" width="128" />
+                    <img src="./imgs/css.png" alt="CSS" width="128" />
+                    <img src="./imgs/javascript.png" alt="JavaScript" width="128" />
+                    <img src="./imgs/azure.png" alt="Azure" width="128" />
+                    <img src="./imgs/vscode.png" alt="VScode" width="128" />
+                    <img src="./imgs/nextjs.png" alt="NextJS" width="128" />
+                    <img src="./imgs/react.png" alt="React" width="128" />
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="skills container">
+            <h2>
+                <small>About Me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>a bit about me</h3>
+                    <p>Hi I'm Sathvik, a aspiring Softwere developer works in Google Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi id saepe suscipit tenetur delectus similique omnis vitae fuga, veritatis accusamus, corrupti reprehenderit? Eligendi veritatis quo necessitatibus voluptate soluta illum atque. </p>
+                    
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam laboriosam eius quis temporibus sapiente, voluptate architecto odit? Deleniti consequatur explicabo molestiae numquam consectetur nesciunt, quod blanditiis odit expedita? Natus.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-experience container">
+            <h2>
+                <small>Recent</small>
+                Work Experience
+            </h2>
+            <div class="jobs">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-1.jpg" alt="workplace-1" width="100%">
+                        </div>
+                        <figcaption>Workplace - 1</figcaption>
+                    </figure>
+                    <h3>Workplace - 1</h3>
+                    <div>2019-2020</div>
+                    <p>I had 1 great year of experience at Infosys as a fullstack developer working on Karnataka Govt. project</p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workpace-2.jpg" alt="workplace-2" width="100%">
+                        </div>
+                        <figcaption>Workplace - 2</figcaption>
+                    </figure>
+                    <h3>Workplace - 2</h3>
+                    <div>2020-2020</div>
+                    <p>I had 7 months of experience at Atlasian as a softwere consultant </p>
+                </article>
+
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/workplace-3.jpg" alt="workplace-3" width="100%">
+                        </div>
+                        <figcaption>Workplace - 3</figcaption>
+                    </figure>
+                    <h3>Workplace - 3</h3>
+                    <div>2020-Currently</div>
+                    <p>I'm currently working as a softwere engineer 2 at Google Bangalore</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="bento container">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+			<div class="bento-grid">
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-1.png" alt="Scrolling text" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-2.png" alt="Password Generator" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-5.jpg" alt="Expanding cards" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-6.jpg" alt="Nike store" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-3.png" alt="bunbery" width="100%" />
+				</a>
+				<a href="#" class="bento-item">
+					<img src="./imgs/bento-4.png" alt="School" width="100%" />
+				</a>
+			</div>
+		</section>
+    </main>
+    
+</body>
+</html>
