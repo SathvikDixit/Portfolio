@@ -269,9 +269,9 @@ h1 {
         align-items: flex-end;
 
         img {
-            margin-top: -100px;
+            margin-top: 10px;
             max-width: 500px;
-            margin-bottom: 0px;
+            margin-bottom: 10px;
         }
     }
 }
